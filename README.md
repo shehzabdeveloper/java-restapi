@@ -21,10 +21,7 @@ import java.util.List;
 import java.util.Map;
 import javax.ws.rs.core.MultivaluedMap;
 
-/**
-*
-* @author praveencastelino
-*/
+
 @Provider
 @AuthTokenBinding
 public class AuthRequestFilter implements ContainerRequestFilter {
@@ -63,11 +60,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import javax.ws.rs.NameBinding;
-
-/**
-*
-* @author praveencastelino
-*/
 
 @NameBinding
 @Target({ElementType.TYPE, ElementType.METHOD})
